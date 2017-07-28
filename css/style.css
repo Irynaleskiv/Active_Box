@@ -481,7 +481,7 @@ a {
 @media only screen and (max-width: 768px) {
   
   .navbar-header {
-    padding: 23px 5px 10px 20px;
+    padding: 18px 5px 13px 20px;
   }
 
   .navbar-nav {
@@ -541,7 +541,7 @@ a {
   }
 
   .logo img {
-    margin-top: 5px;
+    margin-top: 9px;
     width: 120px;
   }
 
