@@ -1,0 +1,602 @@
+html {
+	color: #fff;
+}
+
+h1, h2, h3, h4 {
+	margin: 0px;
+} 
+
+a {
+  color: #fff;
+}
+
+.navbar-header {
+  padding: 25px 0;
+}
+
+.main-header {
+  background:url("../img/banner.jpg") no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: #292c47;
+  opacity: 0.9;
+  z-index: 9999;
+}
+
+.navbar-nav {
+  margin-top: 20px;
+}
+
+.navbar-default {
+  background-image: none;
+  border-style: none;
+}
+
+.nav > li > a {
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px 0px;
+  margin-left: 55px;
+}
+
+.nav > li:first-child a {
+  margin-left: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+  opacity: 0.9;
+  text-shadow: none;
+}
+
+.container .jumbotron .btn, .container .jumbotron p, .nav > li > a {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container .jumbotron {
+  padding-right: 95px;
+  padding-left: 95px;
+}
+
+.jumbotron {
+  background-color: transparent;
+  color: #fff;
+  margin-top: 230px;
+  margin-bottom: 154px;
+  padding: 0;
+  text-align: center;
+}
+
+.container .jumbotron h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 65px;
+  text-transform: uppercase;
+}
+
+.container .jumbotron p {
+  font-family: 'Raleway', sans-serif;
+  padding-top: 25px;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.container .jumbotron .btn {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 60px;
+  font-size: 13px;
+  font-weight: 600;
+  height: 50px;
+  width: 200px;
+  border: transparent;
+  border-radius: 2px;
+  background-color: #e84545;
+  text-transform: uppercase;
+}
+
+.container .jumbotron .btn-default {
+  background-image: none;
+  text-shadow: none;
+  color: #fff;
+}
+
+.container .jumbotron .btn div {
+  margin: auto;
+  padding-top: 11px;
+}
+
+/*.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #f4511e !important;
+  background-color: #fff !important;
+}*/
+
+.features {
+  text-align: center;
+  padding: 121px 10px 114px 10px;
+}
+
+.feature-row-2 {
+  padding-top: 63px;
+}
+
+.feature-description h5 {
+  font-weight: 700;
+  color: #2d3033;
+  text-transform: uppercase;
+}
+
+.feature-description {
+  font-family: 'Raleway', sans-serif;
+  padding: 22px 17px 0 17px;
+  font-size: 14px;
+}
+
+.feature-description p {
+  font-weight: 400;
+  color: #6c7279;
+  padding-top: 10px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.works .container-fluid .col-md-3, 
+.works .container-fluid .col-sm-6, .works .container-fluid .col-xs-12 {
+  padding: 0;
+}
+
+.works {
+  margin-bottom: 102px;
+}
+
+.team {
+  text-align: center;
+}
+
+.thumbnail {
+  border: none;
+  padding: 0;
+  box-shadow: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.social-icons {
+  padding: 0;
+  margin-top: 5px;
+}
+
+.social-icons li {
+  list-style-type: none;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e8ecee;
+  border-radius: 2px;
+}
+
+.thumbnail a > img {
+  display: inline;
+  padding-top: 11px;
+}
+
+.caption h4 {
+  font-size: 25px;
+  color: #2d3033;
+  padding-top: 23px;
+}
+
+.caption h5 {
+  font-size: 13px;
+  color: #e84545;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+.caption p {
+  font-size: 14px;
+  color: #6c7279;
+  margin: 23px 0 17px 0;
+}
+
+
+.testimonials {
+  margin: 79px 0 15px 0;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:active  {
+  background-image: none;
+  background: #fff;
+  opacity: 0.4;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
+  opacity: 0.5;
+}
+
+.navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  opacity: 0.9;
+}
+
+.testimonial .col-md-6,  .testimonial .col-sm-12 {
+  padding: 0;
+}
+
+.testimonial blockquote {
+  border-left: none;
+  color: #fff;
+}
+
+.testimonial blockquote p {
+  font-family: 'Cardo', serif;
+  font-size: 36px;
+}
+
+.testimonial blockquote address {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.testimonial {
+  background: linear-gradient(90deg, #fff 50%, #53354a 50%);
+}
+
+.testimonial-title {
+  padding: 58px 40px 0 55px;
+}
+
+/*.testimonial .col-md-6 {
+  width: 50%;
+}*/
+
+.works .bg-hover {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: transparent;
+}
+
+.works .bg-hover:hover {
+  background: rgba(232, 69, 69, 0.8);
+  height: 100%;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  transition: opacity 1s, font-size 2s;
+  cursor: pointer;
+  font-size: 18px;
+  color: #000;
+}
+
+.works .hover-title {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.hover-title h5 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.hover-title p {
+  font-weight: 400;
+  margin-top: 10px
+}
+
+.download {
+  margin: 100px 0;
+  text-align: center;
+}
+
+.download-info h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.download-info p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 9px 0 25px 0;
+}
+
+.download .btn-default {
+  background-image: none;
+  text-shadow: none;
+  color: #fff;
+  background-color: #e84545;
+  height: 46px;
+  width: 280px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 11px;
+  font-size: 13px;
+  font-weight: 600;
+  border: transparent;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.download .btn div {
+  margin: auto;
+  padding-top: 11px;
+}
+
+.top-footer {
+  background: #3a3e64;
+  text-align: center;
+  color: #fff;
+}
+
+.bottom-footer {
+  background: #313454;
+  text-align: center;
+}
+
+.contacts {
+  padding: 70px 50px 78px 50px;
+}
+
+.location h5, .share h5, .about h5 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
+.location p, .about p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 15px
+}
+
+.top-footer a > img {
+  margin-top: 11px;
+}
+
+.about p {
+  padding: 0 45px;
+}
+
+.bottom-footer {
+  color: #808080;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.bottom-footer p {
+  margin-bottom: 0px;
+}
+
+.bottom-footer p:first-child {
+  padding-top: 25px;
+}
+
+.bottom-footer p:last-child {
+  padding-bottom: 20px;
+}
+
+.footer-icon {
+  margin-top: 18px;
+}
+
+.works-bg {
+  overflow: hidden;
+}
+
+.jumbotron .btn:hover, .download-info .btn:hover {
+  background: #e52020;
+}
+
+.jumbotron .btn:active, .download-info .btn:active {
+  background: #e30303;
+  color: #fff;
+}
+
+.social-icons li:hover, .social-icons li:active {
+  background: #e30303;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 1031px) and (max-width: 1312px) {
+  
+  .testimonial-title {
+    padding: 20px 20px 0 20px;
+  }
+
+  .testimonial blockquote p {
+    font-size: 30px;
+  }
+
+  .testimonial blockquote address {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (min-width: 860px) and (max-width: 1031px) {
+  
+  .nav > li > a {
+  margin-left: 20px;
+  }
+
+  .testimonial-title {
+    padding: 20px 20px 0 20px;
+  }
+
+  .testimonial blockquote p {
+    font-size: 24px;
+  }
+
+  .testimonial blockquote address {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 860px) {
+
+  .nav > li > a {
+    margin-left: 20px;
+  }
+  
+  .testimonial-title {
+    padding: 15px 15px 0 15px;
+  }
+
+  .testimonial blockquote p {
+    font-size: 21px;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  
+  .navbar-header {
+    padding: 23px 5px 10px 20px;
+  }
+
+  .navbar-nav {
+    margin-top: 0px;
+  }
+
+  .container .jumbotron h1 {
+    font-size: 45px;
+  }
+
+  .container .jumbotron p {
+    font-size: 20px;
+  }
+
+  .container .jumbotron {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .jumbotron {
+    margin-top: 175px;
+    margin-bottom: 125px;
+  }
+
+  .features {
+    padding: 75px 10px 50px 10px;
+  }
+
+  .feature-row-2 {
+    padding-top: 0px;
+  }
+
+  .caption p {
+    margin: 23px 40px 17px 40px;
+  }
+
+  .testimonials {
+    margin: 35px 0 15px 0;
+  }
+
+  .testimonial-title {
+    padding: 0px 30px 0 30px;
+    text-align: center;
+  }
+
+  .testimonial blockquote p {
+    font-size: 24px;
+  }
+
+  .testimonial blockquote address {
+    font-size: 12px;
+  }
+
+  .navbar-toggle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .logo img {
+    margin-top: 5px;
+  }
+
+  .nav > li > a {
+    margin: 0;
+    text-align: center;
+  }
+
+  .works {
+    margin-bottom: 70px;
+  }
+
+  .testimonial {
+    background: linear-gradient(180deg, #fff 48%, #53354a 48%);
+  }
+
+  blockquote {
+    padding: 0px 20px;
+  }
+
+  .download {
+    margin: 78px 0;
+  }
+
+  .download-info h3 {
+    font-size: 22px;
+  }
+  
+  .download-info p {
+    font-size: 12px;
+  }
+
+  .download .btn-default {
+    width: 230px;
+    margin-top: 11px;
+  }
+
+  .contacts div {
+    padding-top: 20px;
+  }
+
+  .contacts {
+    padding: 45px 50px 60px 50px;
+  }
+
+  .navbar-default .navbar-nav > li > a:hover {
+    color: #000;
+    background: #fff;
+    opacity: 0.7;
+  }
+
+  .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+    color: #000;
+    background: #fff;
+    opacity: 0.9;
+  }
+}
+
+
