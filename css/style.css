@@ -528,7 +528,7 @@ a {
   }
 
   .testimonial blockquote p {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .testimonial blockquote address {
@@ -598,6 +598,11 @@ a {
     background: #fff;
     opacity: 0.9;
   }
+	
+ .testimonial blockquote address {
+    margin-top: 12px; 
+  }
+	
 }
 
 
