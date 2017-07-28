@@ -542,6 +542,7 @@ a {
 
   .logo img {
     margin-top: 5px;
+    width: 120px;
   }
 
   .nav > li > a {
