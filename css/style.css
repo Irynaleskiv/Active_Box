@@ -1,9 +1,9 @@
 html {
-	color: #fff;
+  color: #fff;
 }
 
 h1, h2, h3, h4 {
-	margin: 0px;
+  margin: 0px;
 } 
 
 a {
@@ -476,7 +476,11 @@ a {
   }
 }
 
+@media screen and (min-width: 664px) and (max-width: 768px) {
 
+.works .col-xs-12 {
+  width: 50%;
+}
 
 @media only screen and (max-width: 768px) {
   
