@@ -485,6 +485,7 @@ a {
 
 .works .col-xs-12 {
   width: 50%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
